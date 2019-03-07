@@ -1,0 +1,266 @@
+ILMerge version 2.12.803.0
+Copyright (C) Microsoft Corporation 2004-2006. All rights reserved.
+ILMerge /lib:D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs /lib:C:\Windows\Microsoft.NET\Framework\v4.0.30319 /out:D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DriveActivator.Launcher\bin\ReleaseFactory\Activator.exe D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DriveActivator.Launcher\bin\ReleaseFactory\DriveActivator.Launcher.exe D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.AppUpdateRoutines.dll D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.BLTypes.dll D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.UsageAnalytics.dll D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.USBManager.dll D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Ionic.Zip.dll D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Trackerbird.Tracker.dll D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.UIBase.dll D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.Utils.dll D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Delimon.Win32.IO.dll /target:winexe /targetplatform:v4 /wildcards /closed /log:D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\ILMerge\logLauncher.txt 
+Set platform to 'v4', using directory 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727\..\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v2.0.50727
+mscorlib.dll version = 2.0.0.0
+The list of input assemblies is:
+	D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DriveActivator.Launcher\bin\ReleaseFactory\DriveActivator.Launcher.exe
+	D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.AppUpdateRoutines.dll
+	D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.BLTypes.dll
+	D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.UsageAnalytics.dll
+	D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.USBManager.dll
+	D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Ionic.Zip.dll
+	D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Trackerbird.Tracker.dll
+	D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.UIBase.dll
+	D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.Utils.dll
+	D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Delimon.Win32.IO.dll
+The number of files matching the pattern D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DriveActivator.Launcher\bin\ReleaseFactory\DriveActivator.Launcher.exe is 1.
+D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DriveActivator.Launcher\bin\ReleaseFactory\DriveActivator.Launcher.exe
+Trying to read assembly from the file 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DriveActivator.Launcher\bin\ReleaseFactory\DriveActivator.Launcher.exe'.
+	Successfully read in assembly.
+	There were no errors reported in DriveActivator.Launcher's metadata.
+The number of files matching the pattern D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.AppUpdateRoutines.dll is 1.
+D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.AppUpdateRoutines.dll
+Trying to read assembly from the file 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.AppUpdateRoutines.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.AppUpdateRoutines.dll'.
+	Successfully read in assembly.
+	There were no errors reported in USB2Cloud.AppUpdateRoutines's metadata.
+The number of files matching the pattern D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.BLTypes.dll is 1.
+D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.BLTypes.dll
+Trying to read assembly from the file 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.BLTypes.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.BLTypes.dll'.
+	Successfully read in assembly.
+	There were no errors reported in USB2Cloud.BLTypes's metadata.
+The number of files matching the pattern D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.UsageAnalytics.dll is 1.
+D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.UsageAnalytics.dll
+Trying to read assembly from the file 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.UsageAnalytics.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.UsageAnalytics.dll'.
+	Successfully read in assembly.
+	There were no errors reported in USB2Cloud.UsageAnalytics's metadata.
+The number of files matching the pattern D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.USBManager.dll is 1.
+D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.USBManager.dll
+Trying to read assembly from the file 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.USBManager.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.USBManager.dll'.
+	Successfully read in assembly.
+	There were no errors reported in USB2Cloud.USBManager's metadata.
+The number of files matching the pattern D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Ionic.Zip.dll is 1.
+D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Ionic.Zip.dll
+Trying to read assembly from the file 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Ionic.Zip.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Ionic.Zip.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Ionic.Zip's metadata.
+The number of files matching the pattern D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Trackerbird.Tracker.dll is 1.
+D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Trackerbird.Tracker.dll
+Trying to read assembly from the file 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Trackerbird.Tracker.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Trackerbird.Tracker.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Trackerbird.Tracker's metadata.
+The number of files matching the pattern D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.UIBase.dll is 1.
+D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.UIBase.dll
+Trying to read assembly from the file 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.UIBase.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.UIBase.dll'.
+	Successfully read in assembly.
+	There were no errors reported in USB2Cloud.UIBase's metadata.
+The number of files matching the pattern D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.Utils.dll is 1.
+D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.Utils.dll
+Trying to read assembly from the file 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.Utils.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.Utils.dll'.
+	Successfully read in assembly.
+	There were no errors reported in USB2Cloud.Utils's metadata.
+The number of files matching the pattern D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Delimon.Win32.IO.dll is 1.
+D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Delimon.Win32.IO.dll
+Trying to read assembly from the file 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Delimon.Win32.IO.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Delimon.Win32.IO.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Delimon.Win32.IO's metadata.
+AssemblyResolver: Assembly 'DriveActivator.Launcher' is referencing assembly 'DriveActivator.Settings'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'DriveActivator.Settings' to 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DriveActivator.Launcher\bin\ReleaseFactory\DriveActivator.Settings.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System' is referencing assembly 'System.Configuration'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Configuration'.
+Resolved assembly reference 'System.Configuration' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Configuration.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Configuration' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Core'.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Core' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Numerics'.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'USB2Cloud.AppUpdateRoutines' is referencing assembly 'USB2Cloud.Licensing'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'USB2Cloud.Licensing'.
+Resolved assembly reference 'USB2Cloud.Licensing' to 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\USB2Cloud.Licensing.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'USB2Cloud.Licensing' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ServiceModel.dll'. (Used a client-supplied directory.)
+Can not find PDB file. Debug info will not be available for assembly 'System.ServiceModel'.
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.Xaml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Xaml'.
+Resolved assembly reference 'System.Xaml' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Xaml.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.IdentityModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.IdentityModel'.
+Resolved assembly reference 'System.IdentityModel' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.IdentityModel.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.IdentityModel' is referencing assembly 'System.Web.ApplicationServices'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Web.ApplicationServices'.
+Resolved assembly reference 'System.Web.ApplicationServices' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Web.ApplicationServices.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Transactions'.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Transactions.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'Microsoft.Transactions.Bridge'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'Microsoft.Transactions.Bridge'.
+Resolved assembly reference 'Microsoft.Transactions.Bridge' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Transactions.Bridge.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.IdentityModel.Selectors'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.IdentityModel.Selectors'.
+Resolved assembly reference 'System.IdentityModel.Selectors' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.IdentityModel.Selectors.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Xml.Linq'.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Xml.Linq.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.Runtime.DurableInstancing'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Runtime.DurableInstancing'.
+Resolved assembly reference 'System.Runtime.DurableInstancing' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Runtime.DurableInstancing.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.Net.Http'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Net.Http'.
+Resolved assembly reference 'System.Net.Http' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Net.Http.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.ServiceModel.Activation'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.ServiceModel.Activation'.
+Resolved assembly reference 'System.ServiceModel.Activation' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ServiceModel.Activation.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel.Activation' is referencing assembly 'System.ServiceModel.Activities'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.ServiceModel.Activities'.
+Resolved assembly reference 'System.ServiceModel.Activities' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ServiceModel.Activities.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel.Activities' is referencing assembly 'System.Activities'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Activities'.
+Resolved assembly reference 'System.Activities' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Activities.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Activities' is referencing assembly 'Microsoft.VisualBasic.Activities.Compiler'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'Microsoft.VisualBasic.Activities.Compiler'.
+Resolved assembly reference 'Microsoft.VisualBasic.Activities.Compiler' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.VisualBasic.Activities.Compiler.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel.Activities' is referencing assembly 'System.Activities.DurableInstancing'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Activities.DurableInstancing'.
+Resolved assembly reference 'System.Activities.DurableInstancing' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Activities.DurableInstancing.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel.Activation' is referencing assembly 'System.Xaml.Hosting'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Xaml.Hosting'.
+Resolved assembly reference 'System.Xaml.Hosting' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Xaml.Hosting.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'USB2Cloud.Licensing' is referencing assembly 'Newtonsoft.Json'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'Newtonsoft.Json'.
+Resolved assembly reference 'Newtonsoft.Json' to 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Newtonsoft.Json.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'USB2Cloud.Utils' is referencing assembly 'Microsoft.CSharp'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+Resolved assembly reference 'Microsoft.CSharp' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.dll'. (Used a client-supplied directory.)
+Can not find PDB file. Debug info will not be available for assembly 'Microsoft.CSharp'.
+AssemblyResolver: Assembly 'Microsoft.CSharp' is referencing assembly 'System.Dynamic'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Dynamic'.
+Resolved assembly reference 'System.Dynamic' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Dynamic.dll'. (Used referencing Module's directory.)
+In order to close the target assembly, the number of assemblies to be added to the input is 2.
+	Adding assembly 'DriveActivator.Settings' to the input list.
+	Adding assembly 'USB2Cloud.Licensing' to the input list.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	DriveActivator.Launcher.PeKind = ILonly
+	USB2Cloud.AppUpdateRoutines.PeKind = ILonly
+	USB2Cloud.BLTypes.PeKind = ILonly
+	USB2Cloud.UsageAnalytics.PeKind = ILonly
+	USB2Cloud.USBManager.PeKind = ILonly
+	Ionic.Zip.PeKind = ILonly
+	Trackerbird.Tracker.PeKind = ILonly
+	USB2Cloud.UIBase.PeKind = ILonly
+	USB2Cloud.Utils.PeKind = ILonly
+	Delimon.Win32.IO.PeKind = ILonly
+	DriveActivator.Settings.PeKind = ILonly
+	USB2Cloud.Licensing.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+Using assembly 'DriveActivator.Launcher' for assembly-level attributes for the target assembly.
+Merging assembly 'DriveActivator.Launcher' into target assembly.
+Merging assembly 'USB2Cloud.AppUpdateRoutines' into target assembly.
+Merging assembly 'USB2Cloud.BLTypes' into target assembly.
+Duplicate type name: modifying name of the type 'Costura.AssemblyLoader' (from assembly 'USB2Cloud.BLTypes') to 'USB2Cloud.BLTypes.AssemblyLoader'
+Duplicate type name: modifying name of the type 'ProcessedByFody' (from assembly 'USB2Cloud.BLTypes') to 'USB2Cloud.BLTypes1122.ProcessedByFody'
+Merging assembly 'USB2Cloud.UsageAnalytics' into target assembly.
+Duplicate type name: modifying name of the type 'Costura.AssemblyLoader' (from assembly 'USB2Cloud.UsageAnalytics') to 'USB2Cloud.UsageAnalytics.AssemblyLoader'
+Duplicate type name: modifying name of the type 'ProcessedByFody' (from assembly 'USB2Cloud.UsageAnalytics') to 'USB2Cloud.UsageAnalytics1139.ProcessedByFody'
+Merging assembly 'USB2Cloud.USBManager' into target assembly.
+Duplicate type name: modifying name of the type 'Costura.AssemblyLoader' (from assembly 'USB2Cloud.USBManager') to 'USB2Cloud.USBManager.AssemblyLoader'
+Duplicate type name: modifying name of the type 'ProcessedByFody' (from assembly 'USB2Cloud.USBManager') to 'USB2Cloud.USBManager1156.ProcessedByFody'
+Merging assembly 'Ionic.Zip' into target assembly.
+Merging assembly 'Trackerbird.Tracker' into target assembly.
+Merging assembly 'USB2Cloud.UIBase' into target assembly.
+Duplicate type name: modifying name of the type 'Costura.AssemblyLoader' (from assembly 'USB2Cloud.UIBase') to 'USB2Cloud.UIBase.AssemblyLoader'
+Duplicate type name: modifying name of the type 'ProcessedByFody' (from assembly 'USB2Cloud.UIBase') to 'USB2Cloud.UIBase1207.ProcessedByFody'
+Merging assembly 'USB2Cloud.Utils' into target assembly.
+Duplicate type name: modifying name of the type 'Costura.AssemblyLoader' (from assembly 'USB2Cloud.Utils') to 'USB2Cloud.Utils.AssemblyLoader'
+Duplicate type name: modifying name of the type 'ProcessedByFody' (from assembly 'USB2Cloud.Utils') to 'USB2Cloud.Utils1224.ProcessedByFody'
+Merging assembly 'Delimon.Win32.IO' into target assembly.
+Merging assembly 'DriveActivator.Settings' into target assembly.
+Duplicate type name: modifying name of the type '<PrivateImplementationDetails>' (from assembly 'DriveActivator.Settings') to 'DriveActivator.Settings.<PrivateImplementationDetails>'
+Merging assembly 'USB2Cloud.Licensing' into target assembly.
+Duplicate type name: modifying name of the type '<PrivateImplementationDetails>' (from assembly 'USB2Cloud.Licensing') to 'USB2Cloud.Licensing.<PrivateImplementationDetails>'
+Duplicate type name: modifying name of the type 'Costura.AssemblyLoader' (from assembly 'USB2Cloud.Licensing') to 'USB2Cloud.Licensing.AssemblyLoader'
+Duplicate type name: modifying name of the type 'ProcessedByFody' (from assembly 'USB2Cloud.Licensing') to 'USB2Cloud.Licensing1598.ProcessedByFody'
+Copying 12 Win32 Resources from assembly 'DriveActivator.Launcher' into target assembly.
+Transferring entry point 'DriveActivator.Launcher.Program.Main' from assembly 'DriveActivator.Launcher' to assembly 'Activator'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DriveActivator.Launcher\bin\ReleaseFactory\Activator.exe'.
+Location for referenced module 'kernel32.dll' is ''
+Location for referenced module 'user32.dll' is ''
+Location for referenced module 'Gdi32.dll' is ''
+Location for referenced module 'setupapi.dll' is ''
+Location for referenced module 'kernel32' is ''
+Location for referenced module 'Trackerbird.x86.dll' is ''
+Location for referenced module 'Trackerbird.x64.dll' is ''
+Location for referenced module 'Version.dll' is ''
+Location for referenced module 'NetApi32.dll' is ''
+Location for referenced module 'shlwapi.dll' is ''
+Location for referenced module 'mpr.dll' is ''
+Location for referenced module 'advapi32.dll' is ''
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Management' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Management.dll'
+	There were no errors reported in  System.Management's metadata.
+Location for referenced assembly 'System.Drawing' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Drawing.dll'
+	There were no errors reported in  System.Drawing's metadata.
+Location for referenced assembly 'System.Windows.Forms' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Windows.Forms.dll'
+	There were no errors reported in  System.Windows.Forms's metadata.
+Location for referenced assembly 'System.Configuration' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Configuration.dll'
+	There were no errors reported in  System.Configuration's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'Microsoft.CSharp' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.dll'
+	There were no errors reported in  Microsoft.CSharp's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'Newtonsoft.Json' is 'D:\Саша\Работа 2.0\USBtoCloud-Windows.Net\DLLs\Newtonsoft.Json.dll'
+	There were no errors reported in  Newtonsoft.Json's metadata.
+Location for referenced assembly 'System.ServiceModel' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ServiceModel.dll'
+	There were no errors reported in  System.ServiceModel's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+ILMerge: Done.

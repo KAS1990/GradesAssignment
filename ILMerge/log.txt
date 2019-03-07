@@ -1,0 +1,258 @@
+ILMerge version 2.12.803.0
+Copyright (C) Microsoft Corporation 2004-2006. All rights reserved.
+ILMerge /lib:C:\Windows\Microsoft.NET\Framework\v4.0.30319 /out:D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Debug\Grades Assignment.exe D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Debug\GradesAssignment.exe D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Threading.Tasks.dll D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.IO.dll D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Runtime.dll /target:winexe /targetplatform:v4 /wildcards /closed /log:D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\ILMerge\log.txt 
+Set platform to 'v4', using directory 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727\..\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v2.0.50727
+mscorlib.dll version = 2.0.0.0
+The list of input assemblies is:
+	D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Debug\GradesAssignment.exe
+	D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll
+	D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll
+	D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+	D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Threading.Tasks.dll
+	D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.IO.dll
+	D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Runtime.dll
+The number of files matching the pattern D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Debug\GradesAssignment.exe is 1.
+D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Debug\GradesAssignment.exe
+Trying to read assembly from the file 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Debug\GradesAssignment.exe'.
+	Successfully read in assembly.
+	There were no errors reported in GradesAssignment's metadata.
+The number of files matching the pattern D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll is 1.
+D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll
+Trying to read assembly from the file 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Microsoft.Threading.Tasks's metadata.
+The number of files matching the pattern D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll is 1.
+D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll
+Trying to read assembly from the file 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Microsoft.Threading.Tasks.Extensions's metadata.
+The number of files matching the pattern D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll is 1.
+D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+Trying to read assembly from the file 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Microsoft.Threading.Tasks.Extensions.Desktop's metadata.
+The number of files matching the pattern D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Threading.Tasks.dll is 1.
+D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Threading.Tasks.dll
+Trying to read assembly from the file 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Threading.Tasks.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Threading.Tasks.dll'.
+	Successfully read in assembly.
+	There were no errors reported in System.Threading.Tasks's metadata.
+The number of files matching the pattern D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.IO.dll is 1.
+D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.IO.dll
+Trying to read assembly from the file 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.IO.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.IO.dll'.
+	Successfully read in assembly.
+	There were no errors reported in System.IO's metadata.
+The number of files matching the pattern D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Runtime.dll is 1.
+D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Runtime.dll
+Trying to read assembly from the file 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Runtime.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Runtime.dll'.
+	Successfully read in assembly.
+	There were no errors reported in System.Runtime's metadata.
+AssemblyResolver: Assembly 'GradesAssignment' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Core.dll'. (Used a client-supplied directory.)
+Can not find PDB file. Debug info will not be available for assembly 'System.Core'.
+AssemblyResolver: Assembly 'System' is referencing assembly 'System.Configuration'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Configuration'.
+Resolved assembly reference 'System.Configuration' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Configuration.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Core' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Numerics'.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Numerics.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'GradesAssignment' is referencing assembly 'Microsoft.CSharp'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+Resolved assembly reference 'Microsoft.CSharp' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.dll'. (Used a client-supplied directory.)
+Can not find PDB file. Debug info will not be available for assembly 'Microsoft.CSharp'.
+AssemblyResolver: Assembly 'Microsoft.CSharp' is referencing assembly 'System.Dynamic'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Dynamic'.
+Resolved assembly reference 'System.Dynamic' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Dynamic.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Threading.Tasks' is referencing assembly 'System.Runtime'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+Resolved assembly reference 'System.Runtime' to 'System.Runtime.dll'. (Used the original input directory.)
+Can not find PDB file. Debug info will not be available for assembly 'System.Runtime'.
+AssemblyResolver: Assembly 'Microsoft.Threading.Tasks' is referencing assembly 'System.Threading.Tasks'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+Resolved assembly reference 'System.Threading.Tasks' to 'System.Threading.Tasks.dll'. (Used the original input directory.)
+Can not find PDB file. Debug info will not be available for assembly 'System.Threading.Tasks'.
+AssemblyResolver: Assembly 'Microsoft.Threading.Tasks' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Core.dll'. (Used a client-supplied directory.)
+Can not find PDB file. Debug info will not be available for assembly 'System.Core'.
+AssemblyResolver: Assembly 'Microsoft.Threading.Tasks' is referencing assembly 'System'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+Resolved assembly reference 'System' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.dll'. (Used a client-supplied directory.)
+Can not find PDB file. Debug info will not be available for assembly 'System'.
+AssemblyResolver: Assembly 'Microsoft.Threading.Tasks.Extensions' is referencing assembly 'System.Net'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+Resolved assembly reference 'System.Net' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Net.dll'. (Used a client-supplied directory.)
+Can not find PDB file. Debug info will not be available for assembly 'System.Net'.
+AssemblyResolver: Assembly 'Microsoft.Threading.Tasks.Extensions.Desktop' is referencing assembly 'System.ServiceModel.Discovery'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+Resolved assembly reference 'System.ServiceModel.Discovery' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ServiceModel.Discovery.dll'. (Used a client-supplied directory.)
+Can not find PDB file. Debug info will not be available for assembly 'System.ServiceModel.Discovery'.
+AssemblyResolver: Assembly 'System.ServiceModel.Discovery' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.ServiceModel'.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ServiceModel.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.Xaml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Xaml'.
+Resolved assembly reference 'System.Xaml' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Xaml.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.ServiceModel.Internals'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.ServiceModel.Internals'.
+Resolved assembly reference 'System.ServiceModel.Internals' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ServiceModel.Internals.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Runtime.Serialization'.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Runtime.Serialization.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Runtime.Serialization' is referencing assembly 'SMDiagnostics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'SMDiagnostics'.
+Resolved assembly reference 'SMDiagnostics' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\SMDiagnostics.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.IdentityModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.IdentityModel'.
+Resolved assembly reference 'System.IdentityModel' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.IdentityModel.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.IdentityModel' is referencing assembly 'System.Web.ApplicationServices'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Web.ApplicationServices'.
+Resolved assembly reference 'System.Web.ApplicationServices' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Web.ApplicationServices.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Transactions'.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Transactions.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'Microsoft.Transactions.Bridge'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'Microsoft.Transactions.Bridge'.
+Resolved assembly reference 'Microsoft.Transactions.Bridge' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Transactions.Bridge.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.IdentityModel.Selectors'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.IdentityModel.Selectors'.
+Resolved assembly reference 'System.IdentityModel.Selectors' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.IdentityModel.Selectors.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Xml.Linq'.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Xml.Linq.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.Runtime.DurableInstancing'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Runtime.DurableInstancing'.
+Resolved assembly reference 'System.Runtime.DurableInstancing' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Runtime.DurableInstancing.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.Net.Http'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Net.Http'.
+Resolved assembly reference 'System.Net.Http' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Net.Http.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel' is referencing assembly 'System.ServiceModel.Activation'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.ServiceModel.Activation'.
+Resolved assembly reference 'System.ServiceModel.Activation' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ServiceModel.Activation.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel.Activation' is referencing assembly 'System.ServiceModel.Activities'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.ServiceModel.Activities'.
+Resolved assembly reference 'System.ServiceModel.Activities' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ServiceModel.Activities.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel.Activities' is referencing assembly 'System.Activities'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Activities'.
+Resolved assembly reference 'System.Activities' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Activities.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Activities' is referencing assembly 'Microsoft.VisualBasic.Activities.Compiler'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'Microsoft.VisualBasic.Activities.Compiler'.
+Resolved assembly reference 'Microsoft.VisualBasic.Activities.Compiler' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.VisualBasic.Activities.Compiler.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel.Activities' is referencing assembly 'System.Activities.DurableInstancing'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Activities.DurableInstancing'.
+Resolved assembly reference 'System.Activities.DurableInstancing' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Activities.DurableInstancing.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel.Activation' is referencing assembly 'System.Xaml.Hosting'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Xaml.Hosting'.
+Resolved assembly reference 'System.Xaml.Hosting' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Xaml.Hosting.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.ServiceModel.Discovery' is referencing assembly 'System.ServiceModel.Channels'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.ServiceModel.Channels'.
+Resolved assembly reference 'System.ServiceModel.Channels' to 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ServiceModel.Channels.dll'. (Used referencing Module's directory.)
+In order to close the target assembly, the number of assemblies to be added to the input is 0.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	GradesAssignment.PeKind = ILonly
+	Microsoft.Threading.Tasks.PeKind = ILonly
+	Microsoft.Threading.Tasks.Extensions.PeKind = ILonly
+	Microsoft.Threading.Tasks.Extensions.Desktop.PeKind = ILonly
+	System.Threading.Tasks.PeKind = ILonly
+	System.IO.PeKind = ILonly
+	System.Runtime.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+Using assembly 'GradesAssignment' for assembly-level attributes for the target assembly.
+Merging assembly 'GradesAssignment' into target assembly.
+Merging assembly 'Microsoft.Threading.Tasks' into target assembly.
+Merging assembly 'Microsoft.Threading.Tasks.Extensions' into target assembly.
+Duplicate type name: modifying name of the type 'System.Threading.Tasks.TaskServices' (from assembly 'Microsoft.Threading.Tasks.Extensions') to 'Microsoft.Threading.Tasks.Extensions1122.TaskServices'
+Duplicate type name: modifying name of the type 'System.Reflection.AssemblyMetadataAttribute' (from assembly 'Microsoft.Threading.Tasks.Extensions') to 'Microsoft.Threading.Tasks.Extensions1122.AssemblyMetadataAttribute'
+Merging assembly 'Microsoft.Threading.Tasks.Extensions.Desktop' into target assembly.
+Duplicate type name: modifying name of the type 'System.Threading.Tasks.TaskServices' (from assembly 'Microsoft.Threading.Tasks.Extensions.Desktop') to 'Microsoft.Threading.Tasks.Extensions.Desktop1139.TaskServices'
+Duplicate type name: modifying name of the type 'System.Reflection.AssemblyMetadataAttribute' (from assembly 'Microsoft.Threading.Tasks.Extensions.Desktop') to 'Microsoft.Threading.Tasks.Extensions.Desktop1139.AssemblyMetadataAttribute'
+Merging assembly 'System.Threading.Tasks' into target assembly.
+Duplicate type name: modifying name of the type 'System.Runtime.CompilerServices.AsyncServices' (from assembly 'System.Threading.Tasks') to 'System.Threading.Tasks1156.AsyncServices'
+Duplicate type name: modifying name of the type 'System.Reflection.AssemblyMetadataAttribute' (from assembly 'System.Threading.Tasks') to 'System.Threading.Tasks1156.AssemblyMetadataAttribute'
+Merging assembly 'System.IO' into target assembly.
+Duplicate type name: modifying name of the type 'System.Reflection.AssemblyMetadataAttribute' (from assembly 'System.IO') to 'System.IO1173.AssemblyMetadataAttribute'
+Merging assembly 'System.Runtime' into target assembly.
+Duplicate type name: modifying name of the type 'System.Reflection.AssemblyMetadataAttribute' (from assembly 'System.Runtime') to 'System.Runtime1190.AssemblyMetadataAttribute'
+Copying 4 Win32 Resources from assembly 'GradesAssignment' into target assembly.
+Transferring entry point 'GradesAssignment.Program.Main' from assembly 'GradesAssignment' to assembly 'Grades Assignment'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Debug\Grades Assignment.exe'.
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'System.Windows.Forms' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Windows.Forms.dll'
+	There were no errors reported in  System.Windows.Forms's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Drawing' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Drawing.dll'
+	There were no errors reported in  System.Drawing's metadata.
+Location for referenced assembly 'Microsoft.CSharp' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.CSharp.dll'
+	There were no errors reported in  Microsoft.CSharp's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'System.ServiceModel.Discovery' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ServiceModel.Discovery.dll'
+	There were no errors reported in  System.ServiceModel.Discovery's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.ServiceModel' is 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.ServiceModel.dll'
+	There were no errors reported in  System.ServiceModel's metadata.
+ILMerge: Done.
