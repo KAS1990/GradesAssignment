@@ -52,6 +52,9 @@ namespace GradesAssignment
         {
             InitializeComponent();
 
+            if (frmMain.Instance != null)
+                frmMain.Instance.WaitingForm = this;
+
             TopMost = true;
 
             ID = NextWndID++;
@@ -104,6 +107,9 @@ namespace GradesAssignment
                 else
                     Owner.Activate();
             }
+
+            if (frmMain.Instance != null)
+                frmMain.Instance.WaitingForm = null;
 
             base.OnClosed(e);
         }

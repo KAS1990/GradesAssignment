@@ -24,8 +24,22 @@ namespace GradesAssignment
         {
             var ex = e.ExceptionObject as Exception;
 
-            MessageBox.Show($"Непредвиденная ошибка:\n\r{ex.Message}\n\rПрограмма будет закрыта", "Ошибка",
-                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            var message = $"Непредвиденная ошибка:\n\r{ex.Message}\n\rПрограмма будет закрыта";
+            if (frmMain.Instance != null)
+            {
+                if (frmMain.Instance.WaitingForm != null)
+                {
+                    MessageBox.Show(frmMain.Instance.WaitingForm, message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    MessageBox.Show(frmMain.Instance, message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show(message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
             Environment.Exit(0);
         }

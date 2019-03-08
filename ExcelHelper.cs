@@ -93,8 +93,13 @@ namespace GradesAssignment
             }
             if (result == null)
             {
-                result = excelApp.App.Workbooks.Open(wbkFullPath);
-                WbkOpened = true;
+                try
+                {
+                    result = excelApp.App.Workbooks.Open(wbkFullPath);
+                    WbkOpened = true;
+                }
+                catch
+                {}
             }
             if (excelApp.NewAppCreated)
             {
@@ -189,7 +194,7 @@ namespace GradesAssignment
                         }
                         else
                         {
-                            message = $"Не удалось открыть книгу {wbkFullPath}";
+                            message = $"Не удалось открыть книгу {wbkFullPath}.\n\rИли книга находится в режиме защищённого просмотра. Если это так, то откройте её с помощью приложение MS Excel и отключите этот режим.";
                         }
                     }
                 }

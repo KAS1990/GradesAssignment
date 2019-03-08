@@ -21,6 +21,8 @@ namespace GradesAssignment
 
         public static frmMain Instance { get; private set; }
 
+        public frmWaiting WaitingForm { get; set; } = null;
+
         List<WorksheetInfo> _currentWorkbookSheetInfos = null;
 
         #region GradesAreActual
@@ -231,7 +233,7 @@ namespace GradesAssignment
             ClearExcelSpecificControls();
 
             var waitingForm = new frmWaiting(this, 0);
-
+            
             var wbkFullPath = txtWbkFullPath.Text;
             var result = await Task.Factory.StartNew(() =>
             {
