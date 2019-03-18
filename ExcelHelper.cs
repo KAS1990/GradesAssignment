@@ -162,34 +162,37 @@ namespace GradesAssignment
                         {
                             foreach (MSExcel.Worksheet wsh in excelWbk.Object.Wbk.Worksheets)
                             {
-                                var info = SearchColAndRows(wsh, out message);
-                                info.Name = wsh.Name;
-
-                                if (string.IsNullOrEmpty(message))
+                                if (wsh.Visible == MSExcel.XlSheetVisibility.xlSheetVisible)
                                 {
-                                    if (info.AllColAndRowIndexesAreFilled)
-                                    {   // Читаем сведения об участниках из листа 
-                                        var fillMembersResult = info.FillMembersFromSheet(wsh, calculationSettings);
+                                    var info = SearchColAndRows(wsh, out message);
+                                    info.Name = wsh.Name;
 
-                                        if (fillMembersResult.Result != enFillMembersFromSheetResult.OK)
-                                        {
-                                            switch (fillMembersResult.Result)
+                                    if (string.IsNullOrEmpty(message))
+                                    {
+                                        if (info.AllColAndRowIndexesAreFilled)
+                                        {   // Читаем сведения об участниках из листа 
+                                            var fillMembersResult = info.FillMembersFromSheet(wsh, calculationSettings);
+
+                                            if (fillMembersResult.Result != enFillMembersFromSheetResult.OK)
                                             {
-                                                case enFillMembersFromSheetResult.CriticalError:
-                                                    return new List<WorksheetInfo>();
-                                                case enFillMembersFromSheetResult.SkipWorksheet:
-                                                    info.Members.Clear();
-                                                    break;
+                                                switch (fillMembersResult.Result)
+                                                {
+                                                    case enFillMembersFromSheetResult.CriticalError:
+                                                        return new List<WorksheetInfo>();
+                                                    case enFillMembersFromSheetResult.SkipWorksheet:
+                                                        info.Members.Clear();
+                                                        break;
+                                                }
                                             }
                                         }
                                     }
-                                }
-                                else
-                                {
-                                    return new List<WorksheetInfo>();
-                                }
+                                    else
+                                    {
+                                        return new List<WorksheetInfo>();
+                                    }
 
-                                result.Add(info);
+                                    result.Add(info);
+                                }
                             }
                         }
                         else
@@ -223,6 +226,12 @@ namespace GradesAssignment
                 int col = 1;
                 for (int row = 1; row < MAX_ROW_TO_SEARCH; row++)
                 {
+                    if (wsh.Rows[row].Hidden)
+                        continue;
+
+                    while (wsh.Columns[col].Hidden)
+                        col++;
+
                     var source = wsh.Cells[row, col].Value?.ToString();
 
                     var searchResult = SearchStrings.Check(source);
@@ -256,6 +265,9 @@ namespace GradesAssignment
                                 valuesToSearch.Remove(searchResult);
 
                                 col++;
+
+                                if (wsh.Columns[col].Hidden)
+                                    continue;
 
                                 source = wsh.Cells[row, col].Value?.ToString();
                                 searchResult = SearchStrings.Check(source);
@@ -328,9 +340,12 @@ namespace GradesAssignment
                                 try
                                 {
                                     MSExcel.Worksheet wsh = excelWbk.Object.Wbk.Worksheets[worksheetIndex];
-                                    worksheetInfo.FillMembersFromSheet(wsh, calculationSettings);
-                                    if (worksheetInfo.LastFillMembersFromSheetResult.Result == enFillMembersFromSheetResult.SkipWorksheet)
-                                        worksheetInfo.Members.Clear();
+                                    if (wsh.Visible == MSExcel.XlSheetVisibility.xlSheetVisible)
+                                    {
+                                        worksheetInfo.FillMembersFromSheet(wsh, calculationSettings);
+                                        if (worksheetInfo.LastFillMembersFromSheetResult.Result == enFillMembersFromSheetResult.SkipWorksheet)
+                                            worksheetInfo.Members.Clear();
+                                    }
                                 }
                                 catch
                                 {

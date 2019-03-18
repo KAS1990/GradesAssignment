@@ -231,7 +231,7 @@ Merging assembly 'System.IO' into target assembly.
 Duplicate type name: modifying name of the type 'System.Reflection.AssemblyMetadataAttribute' (from assembly 'System.IO') to 'System.IO1173.AssemblyMetadataAttribute'
 Merging assembly 'System.Runtime' into target assembly.
 Duplicate type name: modifying name of the type 'System.Reflection.AssemblyMetadataAttribute' (from assembly 'System.Runtime') to 'System.Runtime1190.AssemblyMetadataAttribute'
-Copying 4 Win32 Resources from assembly 'GradesAssignment' into target assembly.
+Copying 9 Win32 Resources from assembly 'GradesAssignment' into target assembly.
 Transferring entry point 'GradesAssignment.Program.Main' from assembly 'GradesAssignment' to assembly 'Grades Assignment'.
 	There were no errors reported in the target assembly's metadata.
 ILMerge: Writing target assembly 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Release\Grades Assignment.exe'.
