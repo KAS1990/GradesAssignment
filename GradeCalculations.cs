@@ -1568,50 +1568,44 @@ namespace GradesAssignment
         {
             List<KeyValuePair<enGrade, int>> minPlaceForNewGrade = new List<KeyValuePair<enGrade, int>>();
 
-            int tmp = 0;
+            double placeRaw = 0;
 
             // 1 разряд
-            tmp = CalcMinPlaceForNewGrade(settings.CalcMethod,
-                                            coeffs[0][0] * (gradesStat[enGrade.Master] + gradesStat[enGrade.InternationalMaster]) +
-                                            coeffs[0][1] * gradesStat[enGrade.BeforeMaster] +
-                                            coeffs[0][2] * gradesStat[enGrade.Adult1] +
-                                            coeffs[0][3] * gradesStat[enGrade.Adult2]);
-            minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Adult1, tmp));
+            placeRaw =  coeffs[0][0] * (gradesStat[enGrade.Master] + gradesStat[enGrade.InternationalMaster]) +
+                        coeffs[0][1] * gradesStat[enGrade.BeforeMaster] +
+                        coeffs[0][2] * gradesStat[enGrade.Adult1] +
+                        coeffs[0][3] * gradesStat[enGrade.Adult2];
+            minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Adult1, CalcMinPlaceForNewGrade(settings.CalcMethod, placeRaw)));
 
             // 2 разряд
-            tmp += CalcMinPlaceForNewGrade(settings.CalcMethod,
-                                            coeffs[1][0] * gradesStat[enGrade.Adult1] +
-                                            coeffs[1][1] * gradesStat[enGrade.Adult2] +
-                                            coeffs[1][2] * gradesStat[enGrade.Adult3]);
-            minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Adult2, tmp));
+            placeRaw += coeffs[1][0] * gradesStat[enGrade.Adult1] +
+                        coeffs[1][1] * gradesStat[enGrade.Adult2] +
+                        coeffs[1][2] * gradesStat[enGrade.Adult3];
+            minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Adult2, CalcMinPlaceForNewGrade(settings.CalcMethod, placeRaw)));
 
             // 3 разряд
-            tmp += CalcMinPlaceForNewGrade(settings.CalcMethod,
-                                            coeffs[2][0] * gradesStat[enGrade.Adult2] +
-                                            coeffs[2][1] * gradesStat[enGrade.Adult3] +
-                                            coeffs[2][2] * gradesStat[enGrade.Young1]);
-            minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Adult3, tmp));
+            placeRaw += coeffs[2][0] * gradesStat[enGrade.Adult2] +
+                        coeffs[2][1] * gradesStat[enGrade.Adult3] +
+                        coeffs[2][2] * gradesStat[enGrade.Young1];
+            minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Adult3, CalcMinPlaceForNewGrade(settings.CalcMethod, placeRaw)));
 
             // 1 ю разряд
-            tmp += CalcMinPlaceForNewGrade(settings.CalcMethod,
-                                            coeffs[3][0] * gradesStat[enGrade.Adult3] +
-                                            coeffs[3][1] * gradesStat[enGrade.Young1] +
-                                            coeffs[3][2] * gradesStat[enGrade.Young2]);
-            minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Young1, tmp));
+            placeRaw += coeffs[3][0] * gradesStat[enGrade.Adult3] +
+                        coeffs[3][1] * gradesStat[enGrade.Young1] +
+                        coeffs[3][2] * gradesStat[enGrade.Young2];
+            minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Young1, CalcMinPlaceForNewGrade(settings.CalcMethod, placeRaw)));
 
             // 2 ю разряд
-            tmp += CalcMinPlaceForNewGrade(settings.CalcMethod,
-                                            coeffs[4][0] * gradesStat[enGrade.Young1] +
-                                            coeffs[4][1] * gradesStat[enGrade.Young2] +
-                                            coeffs[4][2] * gradesStat[enGrade.Young3]);
-            minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Young2, tmp));
+            placeRaw += coeffs[4][0] * gradesStat[enGrade.Young1] +
+                        coeffs[4][1] * gradesStat[enGrade.Young2] +
+                        coeffs[4][2] * gradesStat[enGrade.Young3];
+            minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Young2, CalcMinPlaceForNewGrade(settings.CalcMethod, placeRaw)));
 
             // 3 ю разряд
-            tmp += CalcMinPlaceForNewGrade(settings.CalcMethod,
-                                            coeffs[5][0] * gradesStat[enGrade.Young2] +
-                                            coeffs[5][1] * gradesStat[enGrade.Young3] +
-                                            coeffs[5][2] * gradesStat[enGrade.WithoutGrade]);
-            minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Young3, tmp));
+            placeRaw += coeffs[5][0] * gradesStat[enGrade.Young2] +
+                        coeffs[5][1] * gradesStat[enGrade.Young3] +
+                        coeffs[5][2] * gradesStat[enGrade.WithoutGrade];
+            minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Young3, CalcMinPlaceForNewGrade(settings.CalcMethod, placeRaw)));
 
             return minPlaceForNewGrade;
         }

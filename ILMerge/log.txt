@@ -1,20 +1,20 @@
 ILMerge version 2.12.803.0
 Copyright (C) Microsoft Corporation 2004-2006. All rights reserved.
-ILMerge /lib:C:\Windows\Microsoft.NET\Framework\v4.0.30319 /out:D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Release\Grades Assignment.exe D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Release\GradesAssignment.exe D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Threading.Tasks.dll D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.IO.dll D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Runtime.dll /target:winexe /targetplatform:v4 /wildcards /closed /log:D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\ILMerge\log.txt 
+ILMerge /lib:C:\Windows\Microsoft.NET\Framework\v4.0.30319 /out:D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Debug\Grades Assignment.exe D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Debug\GradesAssignment.exe D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Threading.Tasks.dll D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.IO.dll D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Runtime.dll /target:winexe /targetplatform:v4 /wildcards /closed /log:D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\ILMerge\log.txt 
 Set platform to 'v4', using directory 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727\..\v4.0.30319' for mscorlib.dll
 Running on Microsoft (R) .NET Framework v2.0.50727
 mscorlib.dll version = 2.0.0.0
 The list of input assemblies is:
-	D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Release\GradesAssignment.exe
+	D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Debug\GradesAssignment.exe
 	D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll
 	D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll
 	D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll
 	D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Threading.Tasks.dll
 	D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.IO.dll
 	D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.1.1.8\lib\net40\System.Runtime.dll
-The number of files matching the pattern D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Release\GradesAssignment.exe is 1.
-D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Release\GradesAssignment.exe
-Trying to read assembly from the file 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Release\GradesAssignment.exe'.
+The number of files matching the pattern D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Debug\GradesAssignment.exe is 1.
+D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Debug\GradesAssignment.exe
+Trying to read assembly from the file 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Debug\GradesAssignment.exe'.
 	Successfully read in assembly.
 	There were no errors reported in GradesAssignment's metadata.
 The number of files matching the pattern D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll is 1.
@@ -234,7 +234,7 @@ Duplicate type name: modifying name of the type 'System.Reflection.AssemblyMetad
 Copying 9 Win32 Resources from assembly 'GradesAssignment' into target assembly.
 Transferring entry point 'GradesAssignment.Program.Main' from assembly 'GradesAssignment' to assembly 'Grades Assignment'.
 	There were no errors reported in the target assembly's metadata.
-ILMerge: Writing target assembly 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Release\Grades Assignment.exe'.
+ILMerge: Writing target assembly 'D:\Саша\Документы\Эксель\Для соревнований\Скалолазание\Присвоение разрядов\GradesAssignment\bin\Debug\Grades Assignment.exe'.
 Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll'
 	There were no errors reported in  mscorlib's metadata.
 Location for referenced assembly 'System.Windows.Forms' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Windows.Forms.dll'
