@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace GradesAssignment
 {
@@ -1470,7 +1469,7 @@ namespace GradesAssignment
                     return "";
             }
         }
-        
+
         public static enGrade ParseGrade(this string grade)
         {
             enGrade result = enGrade.None;
@@ -1526,7 +1525,7 @@ namespace GradesAssignment
             {
                 result = enGrade.Master;
             }
-            
+
             return result;
         }
 
@@ -1571,37 +1570,42 @@ namespace GradesAssignment
             double placeRaw = 0;
 
             // 1 разряд
-            placeRaw =  coeffs[0][0] * (gradesStat[enGrade.Master] + gradesStat[enGrade.InternationalMaster]) +
+            placeRaw = coeffs[0][0] * (gradesStat[enGrade.Master] + gradesStat[enGrade.InternationalMaster]) +
                         coeffs[0][1] * gradesStat[enGrade.BeforeMaster] +
                         coeffs[0][2] * gradesStat[enGrade.Adult1] +
                         coeffs[0][3] * gradesStat[enGrade.Adult2];
             minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Adult1, CalcMinPlaceForNewGrade(settings.CalcMethod, placeRaw)));
 
             // 2 разряд
+            placeRaw = Math.Round(placeRaw, 2);
             placeRaw += coeffs[1][0] * gradesStat[enGrade.Adult1] +
                         coeffs[1][1] * gradesStat[enGrade.Adult2] +
                         coeffs[1][2] * gradesStat[enGrade.Adult3];
             minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Adult2, CalcMinPlaceForNewGrade(settings.CalcMethod, placeRaw)));
 
             // 3 разряд
+            placeRaw = Math.Round(placeRaw, 2);
             placeRaw += coeffs[2][0] * gradesStat[enGrade.Adult2] +
                         coeffs[2][1] * gradesStat[enGrade.Adult3] +
                         coeffs[2][2] * gradesStat[enGrade.Young1];
             minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Adult3, CalcMinPlaceForNewGrade(settings.CalcMethod, placeRaw)));
 
             // 1 ю разряд
+            placeRaw = Math.Round(placeRaw, 2);
             placeRaw += coeffs[3][0] * gradesStat[enGrade.Adult3] +
                         coeffs[3][1] * gradesStat[enGrade.Young1] +
                         coeffs[3][2] * gradesStat[enGrade.Young2];
             minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Young1, CalcMinPlaceForNewGrade(settings.CalcMethod, placeRaw)));
 
             // 2 ю разряд
+            placeRaw = Math.Round(placeRaw, 2);
             placeRaw += coeffs[4][0] * gradesStat[enGrade.Young1] +
                         coeffs[4][1] * gradesStat[enGrade.Young2] +
                         coeffs[4][2] * gradesStat[enGrade.Young3];
             minPlaceForNewGrade.Add(new KeyValuePair<enGrade, int>(enGrade.Young2, CalcMinPlaceForNewGrade(settings.CalcMethod, placeRaw)));
 
             // 3 ю разряд
+            placeRaw = Math.Round(placeRaw, 2);
             placeRaw += coeffs[5][0] * gradesStat[enGrade.Young2] +
                         coeffs[5][1] * gradesStat[enGrade.Young3] +
                         coeffs[5][2] * gradesStat[enGrade.WithoutGrade];
@@ -1666,7 +1670,7 @@ namespace GradesAssignment
         public static bool CalculateGrades(List<MemberInfo> members, CalculationSettings settings, out string message)
         {
             message = "";
-                        
+
             IEnumerable<MemberInfo> membersForGradesCalc = members
                 .Where(arg => arg.Place.HasValue && arg.InitGrade.HasValue && arg.InitGrade != enGrade.None)
                 .OrderBy(arg => arg.Place.Value);
