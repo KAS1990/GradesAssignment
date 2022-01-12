@@ -121,8 +121,6 @@
             // chk75Percent
             // 
             this.chk75Percent.AutoSize = true;
-            this.chk75Percent.Checked = true;
-            this.chk75Percent.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chk75Percent.Enabled = false;
             this.chk75Percent.Location = new System.Drawing.Point(15, 64);
             this.chk75Percent.Name = "chk75Percent";
@@ -130,6 +128,7 @@
             this.chk75Percent.TabIndex = 4;
             this.chk75Percent.Text = "Учитывать только 75% участников";
             this.chk75Percent.UseVisualStyleBackColor = true;
+            this.chk75Percent.Visible = false;
             this.chk75Percent.CheckedChanged += new System.EventHandler(this.chk75Percent_CheckedChanged);
             // 
             // label2
@@ -155,11 +154,12 @@
             this.cmbCalcingMethod.Enabled = false;
             this.cmbCalcingMethod.FormattingEnabled = true;
             this.cmbCalcingMethod.Items.AddRange(new object[] {
-            "Это место и выше (округление \"вниз\") - как по разрядным требованиям",
-            "Это место и выше (\"математическое\" округление)"});
+            "Это место и выше (округление \"вниз\") - как по разрядным требованиям до 2021",
+            "Это место и выше (\"математическое\" округление) - как по разрядным требованиям с 2" +
+                "022"});
             this.cmbCalcingMethod.Location = new System.Drawing.Point(170, 88);
             this.cmbCalcingMethod.Name = "cmbCalcingMethod";
-            this.cmbCalcingMethod.Size = new System.Drawing.Size(441, 21);
+            this.cmbCalcingMethod.Size = new System.Drawing.Size(490, 21);
             this.cmbCalcingMethod.TabIndex = 11;
             this.cmbCalcingMethod.SelectedIndexChanged += new System.EventHandler(this.cmbCalcingMethod_SelectedIndexChanged);
             // 

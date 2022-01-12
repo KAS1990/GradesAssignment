@@ -119,7 +119,7 @@ namespace GradesAssignment
             nudCompetitionYear_ValueChanged(nudCompetitionYear, new EventArgs());
             nudMinAge_ValueChanged(nudMinAge, new EventArgs());
 
-            cmbCalcingMethod.SelectedIndex = 0;
+            cmbCalcingMethod.SelectedIndex = 1;
             cmbCompetitionStatus.SelectedIndex = 0;
             GradesAreActual = true;
 
@@ -155,10 +155,8 @@ namespace GradesAssignment
         private void SetControlsState(bool enable)
         {
             btnAnalyseWorkbook.Enabled =
-                chk75Percent.Enabled =
                 nudMinAge.Enabled =
                 nudCompetitionYear.Enabled =
-                cmbCalcingMethod.Enabled =
                 cmbCompetitionStatus.Enabled =
                 tbctrlWorksheets.Enabled =
                 chkChangeJuniorGradesToAdult.Enabled =
